@@ -12,7 +12,7 @@ class EdeNaelApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'EdeNael - 찬양 플레이리스트',
+      title: 'Edenael',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         // Modern color scheme matching your web app
