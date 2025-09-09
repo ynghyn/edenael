@@ -132,6 +132,20 @@ class ApiService {
         type: 'video',
         url: 'https://www.youtube.com/watch?v=oFKKTmJezoY',
       ),
+      MediaItem(
+        id: '5',
+        title: '손 씻자',
+        thumbnailUrl: 'https://img.youtube.com/vi/60sJ8Asirjw/maxresdefault.jpg',
+        type: 'video',
+        url: 'https://www.youtube.com/watch?v=60sJ8Asirjw',
+      ),
+      MediaItem(
+        id: '6',
+        title: '코끼리, 주전자, 개미',
+        thumbnailUrl: 'https://img.youtube.com/vi/b55H7OQfzEk/maxresdefault.jpg',
+        type: 'video',
+        url: 'https://www.youtube.com/watch?v=b55H7OQfzEk',
+      ),
     ];
   }
 }
