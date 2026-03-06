@@ -43,3 +43,19 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Environment variables / secrets
+.env
+.env.*
+*.env
+
+# Node.js
+node_modules/
+
+# Build artifacts / exports
+Runner */
+*.ipa
+
+# Backup files
+*-backup.js
+*-backup.ts

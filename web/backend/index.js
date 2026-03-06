@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 
 // YouTube API setup using direct HTTP requests
-const YOUTUBE_API_KEY = 'AIzaSyCIceLqnP_9d1wrl8eXq73CJLpLBVfC6b8';
+const YOUTUBE_API_KEY = process.env.YOUTUBE_API_KEY;
 const YOUTUBE_API_BASE_URL = 'https://www.googleapis.com/youtube/v3';
 
 // Search YouTube playlists based on mood and genre
